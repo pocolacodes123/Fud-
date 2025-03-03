@@ -1,0 +1,983 @@
+/* Universal Styling  */
+
+/* Lsptop  */
+@media(min-width:746px){
+    /* Typography:
+ h1,h2,h3,sub  heading(Banger Dishes)  button(apart from Heading button:Krona One 
+nav Bar:Instrument Sarif
+sub Heading Button Font:Irish Grover 
+*/
+
+/* Universal Styles That Are Reusable  */
+.btn-styling{
+    background-color:rgba(6, 247, 6, 0.806);
+    color:white;
+    width:160px;
+    height:60px;
+    font-family:"Krona one";
+
+  
+
+
+    border-radius:10px;
+    font-weight:500;
+
+}
+.image-size-media{
+    width:60px;
+}
+.break{
+    display:block;
+}
+.desc-heading{
+    color:white;
+    font-family:"Krona one";
+    font-size:0.7rem;
+    margin-left: 1.0em;
+
+}
+.img-styling{
+    width:80%;
+    height:150px;
+}
+.desc-btn{
+    width:60px;
+    height:20px;
+    font-size:0.4rem;
+    margin-left:1.0em;
+    position:relative;
+    bottom:1.0em;
+    background-color:rgba(6, 247, 6, 0.792);
+    border:0px;
+    color:white;
+    font-family:"Krona one"
+
+
+}
+.break{
+    display:block;
+}
+
+
+
+
+
+body{
+    margin:0px;
+    height:100vh;
+    background-color:black;
+    
+     /* Adjust this to match the navbar height */
+    
+    
+}
+/* Nav - Bar */
+
+#logo{
+    width:100px;
+    margin-top:2.5em;
+    margin-left:2em;
+}
+#toggle-btn,#side-bar{
+    display:none;
+}
+#nav-links{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+  
+    color:white;
+    font-family:"Instrument Serif";
+    margin-top:-1.875em;
+     
+}
+#Order-now-container{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:-2.8125em;
+    margin-right:2em;
+}
+a{
+    border-bottom:1px solid rgb(27, 255, 27);
+}
+
+#Order-now{
+    background-color:rgba(6, 247, 6, 0.806);
+    color:white;
+    width:160px;
+    height:70px;
+    font-family:"Krona one";
+
+    
+}
+
+/* Section 1  */
+/* Layout  */
+
+#image-h1-container{
+    display:flex;
+    justify-content:center;
+
+    margin-left:7.5em;
+   
+
+}
+
+#moto{
+    color:white;
+    
+
+    font-size:clamp(50px,4vw,100px);
+    font-weight: 300;
+ 
+
+
+ 
+}
+
+#three-d-image{
+    width:40%;
+
+}
+#h1-btn{
+    display:flex;
+    flex-direction: column;
+    
+}
+#Order-now-btn{
+    margin-top:-1.25em;
+   
+}
+
+#Dishes-sec{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+
+}
+
+#banger-dishes{
+    color:white;
+
+    font-size:2.7rem;
+    font-weight:400;
+
+
+ 
+
+}
+#Dishes-div{
+    display: grid;
+    grid-template-columns: repeat(3,220px ); /* 3 columns */
+    grid-gap: 30px; /* Spacing between grid items */
+    padding: 10px; /* Smaller padding for mobile */
+    justify-content: center;
+ /* Center the grid */
+    max-width: 100%; /* Full width on mobile */
+
+
+
+
+
+ 
+ 
+
+}
+
+#dish-1{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(92, 88, 88);
+    width:220px;
+    height:250px;
+ 
+    border-radius:10px;
+    border: 1px solid white;
+
+
+    
+
+}
+#transparent-dish-1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    width:220px;
+    height:180px;
+}
+
+#dish-2{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(92, 88, 88);
+    width:220px;
+    height:250px;
+ 
+    border-radius:10px;
+    border: 1px solid white;
+
+
+    
+
+}
+#transparent-dish-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    width:220px;
+    height:180px;
+}
+#dish-3{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(92, 88, 88);
+    width:220px;
+    height:250px;
+ 
+    border-radius:10px;
+    border: 1px solid white;
+
+
+    
+
+}
+#transparent-dish-3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    width:220px;
+    height:180px;
+}
+
+#dish-4{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(92, 88, 88);
+    width:220px;
+    height:250px;
+
+    border-radius:10px;
+    border: 1px solid white;
+
+
+    
+
+}
+#transparent-dish-4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    width:220px;
+    height:180px;
+}
+#dish-5{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(92, 88, 88);
+    width:220px;
+    height:250px;
+ 
+   
+    border-radius:10px;
+    border: 1px solid white;
+
+
+    
+
+}
+#transparent-dish-5{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    width:220px;
+    height:180px;
+}
+#dish-6{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(92, 88, 88);
+    width:220px;
+    height:250px;
+
+    border-radius:10px;
+    border: 1px solid white;
+
+
+    
+
+}
+#transparent-dish-6{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    width:220px;
+    height:180px;
+}
+
+
+
+
+
+
+
+
+
+/*  */
+#how-we-treat-customers{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:0 auto;
+    padding: 2em 0em;
+
+
+
+    width: 70%;
+    height:400px;
+}
+#how-we-treat-customers-heading{
+    color:white;
+    text-align:center;
+    margin-left:2.0em;
+    font-size:2.3rem;
+    font-weight:500;
+
+}
+#container-customers{
+    display:flex;
+
+    align-items:center;
+    gap:20px;
+
+
+    background-color:black;
+    border:0.1px solid rgba(255, 255, 255, 0.557);
+
+    width:100%;
+
+    height:350px;
+    border-radius:40px;
+}
+#treating{
+    width:300px;
+    height:150px;
+
+}
+.size-arrow{
+    height:80px;
+}
+#history{
+    display:flex;
+    justify-content:center;
+
+
+   
+}
+
+#history-div{
+    display:flex;
+    align-content:center;
+    gap:1px;
+    flex-direction: column;
+
+
+    
+    
+    background-color:black;
+    border:0.1px solid white   ;
+
+    width:900px;
+    height:470px;
+    border-radius: 40px;
+    margin-top:-3.5em;
+}
+#history-heading{
+    color:white;
+    font-family:"Krona one";
+    font-size:3.0rem;
+    margin-left:1.0em;
+    margin-top:-2.0em;
+    font-weight:500;
+}
+#history-sub-heading{
+    color:white;
+    font-size:2.0rem;
+    font-family:"Krona one";
+    font-weight:400;
+
+    margin-left:1.6em;
+    margin-bottom: -0.9em;
+
+}
+#history-para{
+    color:white;
+    margin-left:1.6em;
+    font-family:"Krona one";
+    font-size:1.6rem;
+    font-weight:300;
+    margin-left:1.9em;
+    position:relative;
+    top:1.0em;
+
+}
+#btn-history{
+    background-color:rgba(6, 247, 6, 0.806);
+    color:white;
+    width:150px;
+    height:60px;
+    margin-left:3.5em;
+    font-family:"Krona one";
+    position:relative;
+    top:1.0em;
+}
+
+#line{
+    width:100%;
+    background-color: white;
+    
+}
+#footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:4.0em 0em;
+    padding-bottom:2em;
+    width:100%;
+    padding-top:-2.0em;
+
+   
+}
+#nav-links-footer{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+  
+    color:rgba(255, 255, 255, 0.509);
+    font-family:"Instrument Serif";
+    margin-top:-4.0em;
+}
+#social-media{
+    display:flex;
+    justify-content:center;
+    margin-top:1.5em;
+    margin-right:1.0em;
+
+}
+
+}
+
+
+
+
+/* mobile Responsiveness  */
+@media(min-width:100px) and (max-width:745px){
+    /* Universal Styling  */
+
+    .dish-layout-background{
+        display:flex;
+        flex-direction:column;
+        width: 160px; /* Same as #dish-1 */
+        height: 170px;
+      
+
+    }
+    .dish-layout-transparent{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:160px;
+        height:120px;
+    }
+    .desc-btn{
+        width:60px;
+        height:20px;
+        font-size:0.4rem;
+        margin-left:1.0em;
+        position:relative;
+        bottom:1.0em;
+        background-color:rgba(6, 247, 6, 0.792);
+        border:0px;
+        color:white;
+        font-family:"Krona one"
+    
+    
+    }
+    .desc-heading{
+        color:white;
+        font-family:"Krona one";
+        font-size:0.7rem;
+        margin-left: 1.0em;
+    
+    }
+    .img-styling{
+        width:80%;
+        height:150px;
+    }
+    .break{
+        display:block;
+    }
+    body{
+        background-color:black;
+    }
+    #nav-links,#Dishes,#history,#line,#footer,#Order-now{
+        display:none;
+
+         }
+    #navigation-bar{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:20px;
+
+    }
+    #logo{
+        width:100px;
+
+    }
+    #toggle-btn{
+        width:400px;
+        
+      
+        cursor:pointer;
+   
+  
+    }
+    #side-bar {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:30px;
+
+        position: fixed;
+        top: 0;
+        right: -100%; /* Start fully off-screen */
+        width: 140px; /* Adjust width as needed */
+        height: 100vh; /* Full screen height */
+        background: rgb(61, 60, 60);
+        color: white;
+        padding: 30px ;
+        transition: right 0.5s ease-in-out; /* Smooth sliding effect */
+    }
+    #side-bar.show{
+        right:0;
+    }
+    a{
+        border-bottom: 2px solid rgb(12, 235, 12);
+        color: rgb(24, 255, 24);
+        font-size:1.5rem;
+        list-style:none;
+
+    }
+    #image-h1-container{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+
+
+    }
+    #three-d-image{
+        width:100%;
+        max-width:300px;
+     
+     
+    }
+
+    #moto{
+
+        color:white;
+        font-size:2.0em;
+    
+
+     
+        font-weight: 300;
+    }
+    .btn-styling{
+        background-color:rgba(6, 247, 6, 0.806);
+        color:white;
+        width:140px;
+        height:50px;
+        font-family:"Krona one";
+    
+      
+    
+    
+        border-radius:10px;
+        font-weight:500;
+    }
+    #Order-now-btn{
+        margin-top:-1.25em;
+       
+    }
+    #banger-dishes{
+        color:white;
+    
+        font-size:2.7rem;
+        font-weight:400;
+    
+    
+     
+    
+    }
+    #Dishes-sec{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+    
+    }
+    #Dishes-div{
+        display: grid;
+        grid-template-columns: repeat(2,220px); /* 3 columns */
+        grid-gap: 50px; /* Spacing between grid items */
+        padding: 20px;
+
+         /* Padding around the grid */
+  
+        margin: 0 auto; /* Center the grid */
+     /* Maximum width of the grid */
+    }
+    
+    
+    
+    
+    
+     
+     
+    
+    }
+
+    #dish-1{
+        display:flex;
+        flex-direction:column;
+        background-color:rgb(92, 88, 88);
+        width:220px;
+        height:250px;
+     
+        border-radius:10px;
+        border: 1px solid white;
+    
+    
+        
+    
+    }
+    #transparent-dish-1{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:black;
+        width:220px;
+        height:180px;
+    }
+    
+    #dish-2{
+        display:flex;
+        flex-direction:column;
+        background-color:rgb(92, 88, 88);
+        width:220px;
+        height:250px;
+     
+        border-radius:10px;
+        border: 1px solid white;
+    
+    
+        
+    
+    }
+    #transparent-dish-2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:black;
+        width:220px;
+        height:180px;
+    }
+    #dish-3{
+        display:flex;
+        flex-direction:column;
+        background-color:rgb(92, 88, 88);
+        width:220px;
+        height:250px;
+     
+        border-radius:10px;
+        border: 1px solid white;
+    
+    
+        
+    
+    }
+    #transparent-dish-3{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:black;
+        width:220px;
+        height:180px;
+    }
+
+    #dish-4{
+        display:flex;
+        flex-direction:column;
+        background-color:rgb(92, 88, 88);
+        width:220px;
+        height:250px;
+    
+        border-radius:10px;
+        border: 1px solid white;
+    
+    
+        
+    
+    }
+    #transparent-dish-4{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:black;
+        width:220px;
+        height:180px;
+    }
+    #dish-5{
+        display:flex;
+        flex-direction:column;
+        background-color:rgb(92, 88, 88);
+        width:220px;
+        height:250px;
+     
+       
+        border-radius:10px;
+        border: 1px solid white;
+    
+    
+        
+    
+    }
+    #transparent-dish-5{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:black;
+        width:220px;
+        height:180px;
+    }
+    #dish-6{
+        display:flex;
+        flex-direction:column;
+        background-color:rgb(92, 88, 88);
+        width:220px;
+        height:250px;
+    
+        border-radius:10px;
+        border: 1px solid white;
+    
+    
+        
+    
+    }
+    #transparent-dish-6{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:black;
+        width:220px;
+        height:180px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    #how-we-treat-customers{
+        display:flex;
+        flex-direction:column;
+        align-content:center;
+
+        gap:50px;
+
+
+ 
+        padding:5em 0em ;
+    }
+    #how-we-treat-customers-heading{
+        color:white;
+        margin:0 auto;
+ 
+        font-size:1.5rem;
+        font-weight:500;
+
+    }
+    #container-customers{
+        margin:0 auto;
+   
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:20px;
+    
+    
+        background-color:black;
+        border:0.1px solid rgba(255, 255, 255, 0.557);
+      
+        width:350px;
+        height:200px;
+        border-radius:40px;
+    }
+    #treating{
+        width:220px;
+
+    }
+    .size-arrow{
+        height:50px;
+    }
+
+    #history{
+        display:flex;
+        justify-content:center;
+        padding:2em 0em;
+    }
+    #history-div{
+        display:flex;
+        justify-content:center;
+        gap:1px;
+        flex-direction: column;
+        
+        
+        background-color:black;
+        border:0.1px solid white   ;
+        margin-left:0.6em;
+        width:350px;
+        height:220px;
+        border-radius: 40px;
+        margin-top:-3.5em;
+    }
+    #history-heading{
+        color:white;
+        font-family:"Krona one";
+        font-size:1.0rem;
+        margin-left:2.0em;
+        position:relative;
+        top:0.3em;
+    
+        font-weight:500;
+    }
+    #history-sub-heading{
+        color:white;
+        font-size:0.8rem;
+        font-family:"Krona one";
+        font-weight:400;
+    
+        margin-left:2.6em;
+        position:relative;
+        bottom:0.6em;
+ 
+
+    }
+    #history-para{
+        color:white;
+        margin-left:1.6em;
+        font-family:"Krona one";
+        font-size:0.7rem;
+        font-weight:300;
+        margin-left:2.8em;
+        position:relative;
+        bottom:1.5em;
+    }
+    #btn-history{
+        background-color:rgba(6, 247, 6, 0.806);
+        color:white;
+        width:90px;
+        height:30px;
+        margin-left:3.1em;
+        font-family:"Krona one";
+        font-size:0.6rem;
+        position:relative;
+        bottom:2em;
+        border-radius:5px;
+
+    }
+    #line{
+        width:100%;
+        background-color: white;
+        
+    }
+    #footer{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding:4.0em 0em;
+        padding-bottom:2em;
+        width:100%;
+        padding-top:-2.0em;
+    
+       
+    }
+    #nav-links-footer{
+        display:flex;
+        justify-content:center;
+        gap:10px;
+      
+        color:rgba(255, 255, 255, 0.509);
+        font-family:"Instrument Serif";
+        margin-top:-4.0em;
+       
+    }
+    #social-media{
+        display:flex;
+        justify-content:center;
+        margin-top:1.5em;
+        margin-right:1.0em;
+     
+    
+    }
+ 
+    .image-size-media{
+        width:60px;
+    }
+    #home{
+        border-bottom: 2px solid rgb(8, 254, 8);
+        color: rgb(10, 188, 10);
+        font-size:1.5rem;
+        list-style:none;
+        
+
+
+       
+
+    }
+    #dine-in-menu{
+        border-bottom: 2px solid rgb(12, 235, 12);
+        color: rgb(10, 188, 10);
+        font-size:1.5rem;
+        list-style:none;
+
+    }
+    #about-us{
+        border-bottom: 2px solid rgb(12, 235, 12);
+        color: rgb(10, 188, 10);
+        font-size:1.5rem;
+        list-style:none;
+
+    }
+    #contact-us{
+        border-bottom: 2px solid rgb(12, 235, 12);
+        color: rgb(10, 188, 10);
+        font-size:1.5rem;
+        list-style:none;
+       
+
+    }
+
+
